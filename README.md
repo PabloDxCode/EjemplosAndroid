@@ -30,7 +30,8 @@ Lap6: Ejemplo de descarga de imagenes usando hilos.
 
 Lap6b: Ejemplo de descarga de imagenes usando clase AsyncTask.
 
-Lap7: Ejemplo de SQLite.\n
+Lap7: Ejemplo de SQLite.
+
 Lap8: Ejemplo de carga de imagen seleccionado como origen la galeria o tomar una foto, una vez seleccionada 
       la foto se puede compartir.
       
