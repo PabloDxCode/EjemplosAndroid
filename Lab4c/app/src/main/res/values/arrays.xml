@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nombres_array">
+        <item>Pablo</item>
+        <item>Arcadio</item>
+        <item>Patricia</item>
+        <item>Iván</item>
+    </string-array>
+</resources>

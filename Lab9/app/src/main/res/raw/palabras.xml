@@ -1,0 +1,12 @@
+<words id="raiz">
+    <word value="Sala" />
+    <word value="Comedor" />
+    <word value="Cocina" />
+    <word value="Recamara" />
+    <word value="Patio" />
+    <word value="Recepcion" />
+    <word value="Sala de Juntas" />
+    <view value="Soy especial">
+        <word value="Soy nieto"></word>
+    </view>
+</words>

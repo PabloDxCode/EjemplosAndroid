@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab6b</string>
+    <string name="btn_txt">Start Download</string>
+    <string name="status">Status</string>
+    <string name="txtContent">Image from Internet</string>
+</resources>

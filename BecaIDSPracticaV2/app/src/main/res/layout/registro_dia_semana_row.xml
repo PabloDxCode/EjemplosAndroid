@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <TextView
+            android:id="@+id/lblIdRow"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lblProjectRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            tools:text="project"/>
+        <TextView
+            android:id="@+id/lblTypeActivityRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            tools:text="tipo actividad"/>
+        <TextView
+            android:id="@+id/lblHrsRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            tools:text="12:00"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblTitleComentarios"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+        <TextView
+            android:id="@+id/lblComentarioActivityRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginRight="18dp"
+            tools:text ="Comentarios"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

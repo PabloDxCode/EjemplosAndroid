@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/lblIdActivityUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1"/>
+
+    <TextView
+        android:id="@+id/lblDateUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tool:text="@string/lblFechaUpdate"
+        android:gravity="center"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/lblHrsUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/txtHrsUpdate"
+        android:layout_below="@+id/lblDateUpdate"/>
+
+    <EditText
+        android:id="@+id/txtHrsUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblHrsUpdate"/>
+
+    <TextView
+        android:id="@+id/lblComentsUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lblComentsUpdate"
+        android:layout_below="@+id/txtHrsUpdate"/>
+
+    <EditText
+        android:id="@+id/txtDescriptionUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:maxLines="5"
+        android:lines="4"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/lblComentsUpdate"/>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab19</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mi_toolbar">Mi Toolbar</string>
+</resources>

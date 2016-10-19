@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Beca IDS PracticaV2</string>
+    <string name="action_close">Salir</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_viewRegister">Registrar Hrs/Actividad</string>
+    <string name="lblTitleRegister">Registro de Actividades</string>
+    <string name="dateButtonSet">Escoge la fecha</string>
+    <string name="dateSelected">Fecha seleccionada</string>
+    <string name="hintHrsSelected">Max 8 hrs</string>
+    <string name="lblActivityRegister">Detalle de Actividad</string>
+    <string name="btnAltaActividad">Alta de Actividad</string>
+    <string name="lblFechaUpdate">Fecha</string>
+    <string name="txtHrsUpdate">Horas realizadas</string>
+    <string name="lblComentsUpdate">Comentarios</string>
+    <string name="btnSaveUpdate">Actualizar</string>
+    <string name="title_activity_register_activities">RegisterActivitiesActivity</string>
+    <string name="titleHoras">Horas</string>
+    <string name="lblTitleComentarios">Comentario:</string>
+    <string name="lblFindActivity">Buscar por fecha:</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/idRegisterRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginRight="18dp"
+        tools:text ="1"/>
+    <TextView
+        android:id="@+id/lblDateRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        tools:text="dd/mm/yyyy"/>
+    <TextView
+        android:id="@+id/lblHrsRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        tools:text="12:00"/>
+
+
+</LinearLayout>
